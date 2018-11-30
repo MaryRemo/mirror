@@ -1,0 +1,27 @@
+/* Use Flexbox 
+to display them in a row, each taking 50% of the width of the browser.
+Give each article a different border color. */
+
+div {
+    display: flex;
+}
+
+.container {
+    height: 25px;
+    width:50%;
+    justify-content: space-between;
+}
+
+#main {
+    border: solid green;
+}
+
+#part {
+    border: solid red;
+}
+
+input {
+    display: flex;
+    align-content: center;
+}
+
